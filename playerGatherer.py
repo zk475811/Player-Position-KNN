@@ -14,7 +14,7 @@ positions_index = -1
 data = []
 for i in range(0, stop_index):
 	print('page')
-	response = requests.get(url)
+	response = requests.get(url+str(40*(i+1)))
 	soup = BeautifulSoup(response.text, 'html.parser')
 	players = soup.select('[id^=plyr]')
 
