@@ -4,11 +4,11 @@ import time
 
 url = 'http://games.espn.com/fba/tools/projections?startIndex='
 position_options = {'pg' : 1, "sg" : 2, "sf" : 3, "pf" : 4, "c" : 5}
-stop_index 			=  5
-points_index 		= -1
+stop_index 	=  5
+points_index 	= -1
 rebounds_index 	= -5
 assists_index 	= -4
-position 				=  1
+position 	=  1
 positions_index = -1
 
 data = []
